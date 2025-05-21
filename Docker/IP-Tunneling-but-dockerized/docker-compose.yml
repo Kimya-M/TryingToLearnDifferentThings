@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  server:
+    build: ./Server
+    container_name: reliable_server
+    volumes:
+      - ./common:/app/common
+
+  client:
+    build: ./Client
+    container_name: reliable_client
+    depends_on:
+      - server
+    volumes:
+      - ./common:/app/common
