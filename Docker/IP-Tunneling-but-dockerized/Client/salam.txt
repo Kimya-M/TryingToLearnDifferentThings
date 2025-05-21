@@ -1,0 +1,5 @@
+hello!
+in this project we've tried to simulate a simple IP tunnelling with python scapy.
+this code also provides reliability on both sides of client and server.
+make sure to set your IP addresses before running.
+BYE!
