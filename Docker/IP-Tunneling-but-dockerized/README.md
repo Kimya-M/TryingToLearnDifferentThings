@@ -1,6 +1,8 @@
+the source project: https://github.com/Kimya-M/-IP-Tunneling-with-Reliable-Protocol
+
+i tried to dockerize the project as an attempt to test what i've learned so far on docker. 
+
 # IP Tunneling with Reliable Protocol
-
-
 This project implements a simple IP tunneling system that transmits data reliably using a custom protocol. It is designed to simulate a reliable communication channel between two devices by ensuring that packets are sent and acknowledged, and retransmitting lost packets if necessary. The project uses Scapy, a powerful Python library for network packet manipulation, to handle the packet sending, receiving, and processing.
 
 ## Overview

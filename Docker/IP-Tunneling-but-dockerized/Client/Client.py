@@ -11,9 +11,9 @@ bind_layers(IP, ReliableProtocol, proto=253)
 
 
 # Configuration
-DEST_IP = "192.168.43.222"
+DEST_IP = "server"  # Docker Compose service name
+SRC_IP = "client"   # Docker Compose service name
 INT_IP = "20.20.20.20"
-SRC_IP = "192.168.43.181"
 PACKET_INTERVAL = 0.1
 ACK_TIMEOUT = 2
 FILE_PATH1 = "salam.txt"

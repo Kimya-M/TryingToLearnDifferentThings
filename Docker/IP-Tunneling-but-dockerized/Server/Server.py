@@ -16,8 +16,8 @@ ack_lock = threading.Lock()
 
 stop_threads = threading.Event()
 #configuration 
-SRC_IP = "192.168.43.222"
-DEST_IP = "192.168.43.181"
+SRC_IP = "server" 
+DEST_IP = "client"
 ACK_TIMEOUT = 10
 
 # Function to send an acknowledgment
